@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="imgs/logo.png" type="image/png">
+    <script src="https://kit.fontawesome.com/193297976e.js" crossorigin="anonymous"></script>
+    <title>Amazon.es Clone</title>
+</head>
+<body>
+
+<header>
+    <img src="../imgs/logo.png" alt="amazon logo">
+    <section class="header">
+        
+        <select style="display: block; top: 2.5px; margin: 0px 5px; background-color: #e6e6e6" tabindex="0" title="Search in">
+            <option selected="selected" value="search-alias=aps">All Departments</option>
+            <option value="search-alias=alexa-skills">Alexa Skills</option>
+            <option value="search-alias=grocery">Grocery & Gourmet Food</option>
+            <option value="search-alias=amazon-global-store">Amazon Global Store</option>
+            <option value="search-alias=warehouse-deals">Amazon Second Hand</option>
+            <option value="search-alias=mobile-apps">Appstore for Android</option>
+            <option value="search-alias=audible">Audible Audiobooks & Exclusive Podcasts</option>
+            <option value="search-alias=baby">Baby</option>
+            <option value="search-alias=beauty">Beauty</option>
+            <option value="search-alias=diy">DIY & Tools</option>
+            <option value="search-alias=gift-cards">Gift Cards</option>
+            <option value="search-alias=automotive">Car & Motorbike - Parts & Accessories</option>
+            <option value="search-alias=sporting">Sports & Outdoors</option>
+            <option value="search-alias=amazon-devices">Amazon Devices</option>
+            <option value="search-alias=electronics">Electronics</option>
+            <option value="search-alias=fashion-luggage">Luggage & Travel Accessories</option>
+            <option value="search-alias=appliances">Large Appliances</option>
+            <option value="search-alias=handmade">Handmade</option>
+            <option value="search-alias=kitchen">Home & Kitchen</option>
+            <option value="search-alias=lighting">Lighting</option>
+            <option value="search-alias=industrial">Industrial & Scientific</option>
+            <option value="search-alias=computers">Computers</option>
+            <option value="search-alias=mi">Musical Instruments</option>
+            <option value="search-alias=lawngarden">Garden</option>
+            <option value="search-alias=toys">Toys & Games</option>
+            <option value="search-alias=stripbooks">Books</option>
+            <option value="search-alias=luxury">Luxury Stores</option>
+            <option value="search-alias=under-ten-dollars">Under $10</option>
+            <option value="search-alias=fashion">Fashion</option>
+            <option value="search-alias=fashion-womens">&nbsp;&nbsp;&nbsp;Women</option>
+            <option value="search-alias=fashion-mens">&nbsp;&nbsp;&nbsp;Men</option>
+            <option value="search-alias=fashion-girls">&nbsp;&nbsp;&nbsp;Girls</option>
+            <option value="search-alias=fashion-boys">&nbsp;&nbsp;&nbsp;Boys</option>
+            <option value="search-alias=fashion-baby">&nbsp;&nbsp;&nbsp;Baby</option>
+            <option value="search-alias=digital-music">Digital Music</option>
+            <option value="search-alias=popular">Music: CDs & Vinyl</option>
+            <option value="search-alias=office-products">Office Products</option>
+            <option value="search-alias=dvd">Movies & TV</option>
+            <option value="search-alias=instant-video">Prime Video</option>
+            <option value="search-alias=pets">Pet Supplies</option>
+            <option value="search-alias=hpc">Health & Personal Care</option>
+            <option value="search-alias=software">Software</option>
+            <option value="search-alias=specialty-aps-sns">Subscribe & Save</option>
+            <option value="search-alias=digital-text">Kindle Store</option>
+            <option value="search-alias=videogames">Video Games</option>
+        </select>
+
+        <input type="text" placeholder="Search in amazon.uk...">
+        <button><i class="fas fa-search"></i></button>
+        
+        <div class="language-dropdown">
+            <select id="languageSelector" onchange="redirectToLanguage()">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+            </select>
+        </div>
+        
+        <div class="sender_information">
+            <span>Hello Marc <br><strong>Account & Lists</strong></span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        
+        <div class="sender_information">
+            <span>Returns<br><strong>& Orders</strong></span>
+        </div>
+        
+        <div class="shopping_cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span><strong>Cart</strong></span>
+        </div>
+        </section>
+        </header>
+        
+        <section class="subheader">
+            <span class="navmenu"><i class="fas fa-bars icono"></i> All</span>
+            <span class="subtexts">Best Sellers</span>
+            <span class="subtexts">Buy More and</span>
+            <span class="subtexts">Amazon Basics</span>
+            <span class="subtexts">Deals</span>
+            <span class="subtexts">Music</span>
+            <span class="subtexts">New Releases</span>
+            <span class="subtexts">Prime</span>
+            <span class="subtexts">Computers</span>
+            <span class="subtexts">Home & Kitchen</span>
+            <span class="subtexts">Books</span>
+            <span class="subtexts">Audible</span>
+            <span class="subtexts">Fashion</span>
+            <img class="subimg" src="../imgs/subheaderimg.jpg">
+        </section>
+        
+        <section class="body">
+            <img class="headimg" src="../imgs/61pEdcFTmML._SX3000_.jpg">
+            <div class="art1">
+                <img src="../imgs/art1.png">
+            </div>
+            <div class="art2">
+                <img src="../imgs/art1_2.jpg">
+            </div>
+        </section>
+        
+        <footer>
+            <div class="column">
+                <h3>About Us</h3>
+                <p>Work at Amazon</p>
+                <p>About Amazon</p>
+                <p>Sustainability</p>
+                <p>Amazon Science</p>
+            </div>
+        
+            <div class="column">
+                <h3>Earn with Us</h3>
+                <p>Sell on Amazon</p>
+                <p>Sell under Amazon Accelerator</p>
+                <p>Sell on Amazon Handmade</p>
+                <p>Sell Your Services on Amazon</p>
+                <p>Develop and Protect Your Brand</p>
+                <p>Amazon Affiliate Program</p>
+                <p>Amazon Logistics</p>
+                <p>Promote Your Products</p>
+            </div>
+        
+            <div class="column">
+                <h3>Amazon Payment Methods</h3>
+                <p>Payment Methods</p>
+                <p>Amazon Currency Converter</p>
+                <p>Gift Cards</p>
+                <p>Reload Your Balance</p>
+            </div>
+        
+            <div class="column">
+                <h3>Need Help?</h3>
+                <p>Amazon & COVID-19</p>
+                <p>Find or Manage Your Orders</p>
+                <p>Shipping Rates & Policies</p>
+                <p>Amazon Prime</p>
+                <p>Return or Replace Items</p>
+                <p>Recycling</p>
+            </div>
+        
+            <hr>
+        
+            <div class="logo-container">
+                <img src="../imgs/logo.png" alt="Your Logo">
+            </div>
+        
+            <div class="country-list">
+                <p><strong>Spain</strong></p>
+            </div>
+        </footer>
+        
+
+<script src="../script.js"></script>
+</body>
+</html>

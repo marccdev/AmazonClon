@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="imgs/logo.png" type="image/png">
+    <script src="https://kit.fontawesome.com/193297976e.js" crossorigin="anonymous"></script>
+    <title>Amazon.es Clon</title>
+</head>
+<body>
+
+<header>
+    <img src="../imgs/logo.png" alt="amazon logo">
+    <section class="header">
+        
+        <select style="display: block; top: 2.5px; margin: 0px 5px; background-color: #e6e6e6" tabindex="0" title="Buscar en">
+            <option selected="selected" value="search-alias=aps">Todos los departamentos</option>
+            <option value="search-alias=alexa-skills">Alexa Skills</option>
+            <option value="search-alias=grocery">Alimentación y bebidas</option>
+            <option value="search-alias=amazon-global-store">Amazon Global Store</option>
+            <option value="search-alias=warehouse-deals">Amazon Segunda mano</option>
+            <option value="search-alias=mobile-apps">Appstore para Android</option>
+            <option value="search-alias=audible">Audible audiolibros y podcasts exclusivos</option>
+            <option value="search-alias=baby">Bebé</option>
+            <option value="search-alias=beauty">Belleza</option>
+            <option value="search-alias=diy">Bricolaje y herramientas</option>
+            <option value="search-alias=gift-cards">Cheques regalo</option>
+            <option value="search-alias=automotive">Coche y Moto - Piezas y accesorios</option>
+            <option value="search-alias=sporting">Deportes y aire libre</option>
+            <option value="search-alias=amazon-devices">Dispositivos de Amazon</option>
+            <option value="search-alias=electronics">Electrónica</option>
+            <option value="search-alias=fashion-luggage">Equipaje y accesorios de viaje</option>
+            <option value="search-alias=appliances">Grandes electrodomésticos</option>
+            <option value="search-alias=handmade">Handmade</option>
+            <option value="search-alias=kitchen">Hogar y cocina</option>
+            <option value="search-alias=lighting">Iluminación</option>
+            <option value="search-alias=industrial">Industria y ciencia</option>
+            <option value="search-alias=computers">Informática</option>
+            <option value="search-alias=mi">Instrumentos musicales</option>
+            <option value="search-alias=lawngarden">Jardín</option>
+            <option value="search-alias=toys">Juguetes y juegos</option>
+            <option value="search-alias=stripbooks">Libros</option>
+            <option value="search-alias=luxury">Luxury Stores</option>
+            <option value="search-alias=under-ten-dollars">Menos de 10€</option>
+            <option value="search-alias=fashion">Moda</option>
+            <option value="search-alias=fashion-womens">&nbsp;&nbsp;&nbsp;Mujer</option>
+            <option value="search-alias=fashion-mens">&nbsp;&nbsp;&nbsp;Hombre</option>
+            <option value="search-alias=fashion-girls">&nbsp;&nbsp;&nbsp;Niña</option>
+            <option value="search-alias=fashion-boys">&nbsp;&nbsp;&nbsp;Niño</option>
+            <option value="search-alias=fashion-baby">&nbsp;&nbsp;&nbsp;Bebé</option>
+            <option value="search-alias=digital-music">Música Digital</option>
+            <option value="search-alias=popular">Música: CDs y vinilos</option>
+            <option value="search-alias=office-products">Oficina y papelería</option>
+            <option value="search-alias=dvd">Películas y TV</option>
+            <option value="search-alias=instant-video">Prime Video</option>
+            <option value="search-alias=pets">Productos para mascotas</option>
+            <option value="search-alias=hpc">Salud y cuidado personal</option>
+            <option value="search-alias=software">Software</option>
+            <option value="search-alias=specialty-aps-sns">Suscríbete y Ahorra</option>
+            <option value="search-alias=digital-text">Tienda Kindle</option>
+            <option value="search-alias=videogames">Videojuegos</option>
+        </select>
+
+        <input type="text" placeholder="Buscar...">
+        <button><i class="fas fa-search"></i></button>
+        
+        <div class="language-dropdown">
+            <select id="languageSelector" onchange="redirectToLanguage()">
+                <option value="es">Español</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+        
+        <div class="sender_information">
+            <span> Hola Marc <br><strong>Cuenta y listas</strong></span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+
+        <div class="sender_information">
+            <span>Devoluciones<br><strong>y Pedidos</strong></span>
+        </div>
+
+        <div class="shopping_cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span><strong>Carrito</strong></span>
+
+        </div>
+        
+    </section>
+    
+</header>
+
+
+<section class="subheader">
+    <span class="navmenu"><i class="fas fa-bars icono"></i> Todo</span>
+    <span class="subtexts">Los más vendidos</span>
+    <span class="subtexts">Compra más y ahorra</span>
+    <span class="subtexts">Amazon Basics</span>
+    <span class="subtexts">Ofertas</span>
+    <span class="subtexts">Música</span>
+    <span class="subtexts">Últimas Novedades</span>
+    <span class="subtexts">Prime</span>
+    <span class="subtexts">Informática</span>
+    <span class="subtexts">Hogar y cocina</span>
+    <span class="subtexts">Libros</span>
+    <span class="subtexts">Audible</span>
+    <span class="subtexts">Moda</span>
+    <img class="subimg" src="../imgs/subheaderimg.jpg">
+
+
+</section>
+
+<section class="body">
+    <img class="headimg" src="../imgs/61pEdcFTmML._SX3000_.jpg">
+    <div class="art1">
+        <img src="../imgs/art1.png">
+    </div>
+    <div class="art2">
+        <img src="../imgs/art1_2.jpg">
+    </div>
+</section>
+
+<footer>
+    <div class="column">
+        <h3>Conócenos</h3>
+        <p>Trabajar en Amazón</p>
+        <p>Sobre Amazon.es</p>
+        <p>Sostenibilidad</p>
+        <p>Amazon science</p>
+
+    </div>
+
+    <div class="column">
+        <h3>Gana dinero con nosotros</h3>
+        <p>Vender en Amazon</p>
+        <p>Vender en Amazon</p>
+        <p>Vende en Amazon Handmade</p>
+        <p>Vende productos innovadores</p>
+        <p>Desarrolla y protege tu marca</p>
+        <p>Programa de afiliados</p>
+        <p>Logística de Amazon</p>
+        <p>Promociona tus productos</p>
+    </div>
+
+    <div class="column">
+        <h3>Métodos de pago Amazon</h3>
+        <p>Métodos de pago</p>
+        <p>Conversor de divisas de Amazon</p>
+        <p>Tarjetas regalo</p>
+        <p>Recarga online</p>
+
+
+    </div>
+
+    <div class="column">
+        <h3>¿Necesitas ayuda?</h3>
+        <p>Amazon y COVID-19</p>
+        <p>Localizar o gestionar compras</p>
+        <p>Tarifas y políticas de envío</p>
+        <p>Amazon Prime</p>
+        <p>Devolver o reemplazar productos</p>
+        <p>Reciclaje</p>
+    </div>
+
+    <hr>
+
+    <div class="logo-container">
+        <img src="../imgs/logo.png" alt="Tu Logo">
+    </div>
+
+    <div class="country-list">
+        <p><strong>España</strong></p>
+    </div>
+</footer>
+
+<script src="../script.js"></script>
+
+</body>
+</html>
